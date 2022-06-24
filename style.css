@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+}
+
+
+#progress .times, 
+.card-footer, .volume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#progress {
+    color: #0b5eb7;
+}
+
+.volume-container i{
+    margin-right: 8px;
+}
+
+li.playing {
+    background-color: #0b5eb7;
+    color: #fff;
+}
+
+.title{
+    font-size: 18px;
+    color: #0b5eb7;
+}
+
+.singer{
+   
+    color: #0b5eb7;
+}
